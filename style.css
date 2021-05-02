@@ -4,5 +4,47 @@ body {
 
 h1 {
     font-family:"Courier New";
-    color: yellow;
+    color: black;
+    text-align:center;
+}
+
+#leftBar {
+    width:25%;
+    height:500px;
+    float:left;
+}
+
+#cherub1 {
+    float:left;
+    height:60%;
+    padding-top:0px;
+}
+
+#cherub2 {
+    height:40%;
+    padding-left:100px;
+}
+
+
+#middleBar {
+    background:white;
+    width:50%;
+    height:500px;
+    float:left;
+}
+
+#middleBar p {
+    text-align:center;
+}
+
+#rightBar {
+    width:25%;
+    height:500px;
+    float:right;
+}
+
+#cherub3 {
+    height:50%;
+    padding-left:30px;
+    padding-top:100px;
 }
