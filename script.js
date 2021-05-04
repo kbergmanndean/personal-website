@@ -1,15 +1,21 @@
-const slide1=document.getElementById('slideWyeth');
+let i=0;
+let slides=[];
+let time=4000;
 
-const slide2=document.createElement('div')
+slides[0]="wyeth.jpeg"
+slides[1]="darger.jpeg"
 
-const slideShow=document.getElementById('art')
+function nextSlide(){
+    document.slide.src=slides[i];
+    if(i<slides.length-1) {
+        i++;
+    } else {
+        i=0;
+    }
+    setTimeout("nextSlide()",time);
+}
 
-art.appendChild(slide2);
-
-slide2.innerHTML="<img id=darger alt=Henry Darger src=darger.jpeg><p>Henry Darger</p>"
-
-
-
+window.onload=nextSlide;
 
 
 
