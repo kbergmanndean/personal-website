@@ -26,6 +26,18 @@ function nextSlide(){
 
 window.onload=nextSlide;
 
+let x=1;
+function switchImg() {
+    if(x===1) {
+        document.getElementById("thePlace").src="place2.jpg";
+        x++;
+    } else if (x===2) {
+        document.getElementById("thePlace").src="place3.jpg";
+        x++;
+    } else if (x===3) {
+        document.getElementById("thePlace").src="place4.jpg";
+    }
+}
 
 
 
