@@ -1,9 +1,11 @@
 let i=0;
 let slides=[];
-let time=4000;
+let time=3500;
 
 slides[0]="wyeth.jpeg"
 slides[1]="darger.jpeg"
+slides[2]="basquiat.jpg"
+slides[3]="bruegel.jpeg"
 
 function nextSlide(){
     document.slide.src=slides[i];
@@ -16,6 +18,8 @@ function nextSlide(){
 }
 
 window.onload=nextSlide;
+
+
 
 
 
