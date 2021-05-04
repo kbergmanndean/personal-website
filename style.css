@@ -37,7 +37,7 @@ a {
 #cherub2 {
     height:300px;
     padding-left:90px;
-    padding-top:50px;
+    padding-top:70px;
 }
 
 #aboutMe, #authors, #art, #places {
@@ -66,10 +66,14 @@ ul {
 
 #cherub3 {
     position:relative;
-    top:-20px;
-    height:50%;
+    top:-100px;
+    height:300px;
     padding-left:30px;
-    
+}
+
+#skunk {
+    height:200px;
+    padding-left:30px;
 }
 
 #art, #places {

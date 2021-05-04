@@ -26,16 +26,20 @@ function nextSlide(){
 
 window.onload=nextSlide;
 
+const place=document.getElementById("thePlace");
+const end=document.getElementById("end");
+
 let x=1;
 function switchImg() {
     if(x===1) {
-        document.getElementById("thePlace").src="place2.jpg";
+        place.src="place2.jpg";
         x++;
     } else if (x===2) {
-        document.getElementById("thePlace").src="place3.jpg";
+        place.src="place3.jpg";
         x++;
     } else if (x===3) {
-        document.getElementById("thePlace").src="place4.jpg";
+        place.src="place4.jpg";
+        end.textContent="That's it!";
     }
 }
 
