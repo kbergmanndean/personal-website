@@ -4,7 +4,11 @@ const slide2=document.createElement('div')
 
 const slideShow=document.getElementById('art')
 
-document.body.appendChild(slide2)
+art.appendChild(slide2);
+
+slide2.innerHTML="<img id=darger alt=Henry Darger src=darger.jpeg><p>Henry Darger</p>"
+
+
 
 
 
